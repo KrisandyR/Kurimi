@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@1&display=swap');
+
+*{
+    margin: 0px;
+}
+
+/* First Panel */
+.panel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 624px;
+    background-color: #F4E0D7;
+    z-index: 0;
+}
+
+.panel-property{
+    position: absolute;
+}
+
+#home-trapezoid-1 {
+    border-bottom: 800px solid #EFBAA5;
+	border-right: 200px solid transparent;
+    height: 0;
+	width: 720px;
+    /* background-color: #F9B8A1; */
+    z-index: 1;
+}
+
+#home-circle-1 {
+    height: 390px;
+    width: 390px;
+    top: 455px;
+    left: 680px;
+    background-color: #dba99b;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+#home-img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    top: 80px;
+    left: 750px;
+    width: 330px;
+    z-index: 4;
+}
+
+#home-logo img {
+    width: 430px;
+}
+
+#home-logo a {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 600;
+    text-decoration: underline;
+    font-family: 'Baskervvile', serif;
+    color: white;
+}
+
+#home-logo {
+    top: 100px;
+    left: 100px;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-star {
+    position: absolute;
+    z-index: 3;
+}
+
+#home-star-1 {
+    top: 65px;
+    left: -50px;
+}
+
+#home-star-1 img {
+    width: 125px;
+    height: 125px;
+}
+
+#home-star-2 {
+    left: 680px;
+    top: 440px;
+}
+
+#home-star-2 img {
+    width: 160px;
+    height: 160px;
+}
+
+#home-star-3 {
+    transform: rotate(60deg);
+    left: 1200px;
+    top: 440px;
+}
+
+#home-star-3 img {
+    width: 125px;
+    height: 125px;
+}
+
+#home-subtext {
+    bottom: 20px;
+    left: 1100px;
+    font-size: 24px;
+    color: #dba99b;
+    z-index: 3;
+}
+
+header {
+    left: 0px;
+    margin-top: 25px;
+    position: absolute;
+    z-index: 2;
+    
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-family: 'Baskervvile', serif;
+    font-size: 18px;
+}
+
+header a {
+    border-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+/* Panel 2 */
+
+#as-circle-1 {
+    top: -235px;
+    left: -215px;
+    height: 550px;
+    width: 550px;
+    background-color: #E3CDB8;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#as-circle-2 {
+    bottom: -220px;
+    right: -200px;
+    height: 450px;
+    width: 450px;
+    background-color: #E3CDB8;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#as-text-container {
+    top: 370px;
+    z-index: 3;
+    margin-left: 45px;
+    width: 85%;
+}
+
+#as-title {
+    display: flex;
+    gap: 7px;
+    color: #D1AFA6;
+    font-size: 56px;
+    font-family: 'Baskervvile', serif;
+    font-weight: 900;
+}
+
+#as-subtitle{
+    display: flex;
+    gap: 7px;
+    color: #bda895;
+    font-size: 26px;
+    font-family: 'Baskervvile', serif;
+    font-weight: 800;
+    margin-top: -6px;
+    margin-bottom: 8px;
+    
+}
+
+#as-desc{
+    display: flex;
+    gap: 7px;
+    color: #96714D;
+    font-size:20px;
+    font-family: 'Baskervvile', serif;
+    font-weight: 500;
+}
+
+.as-star {
+    position: absolute;
+    z-index: 2;
+}
+
+#as-star-1 img {
+    width: 200px;
+    height: 200px;
+}
+
+#as-star-1 {
+    transform: rotate(45deg);
+    top: 340px;
+    left: -80px;
+}
+
+#as-star-2 img {
+    width: 185px;
+    height: 185px;
+}
+
+#as-star-2 {
+    transform: rotate(-20deg);
+    top: 200px;
+    right: -80px;
+}
+
+/* Panel 3 */
+
+#best-seller {
+    background-color: #F9B8A1;
+}
+
+#bs-title {
+    display: flex;
+    gap: 7px;
+    color: white;
+    font-size: 56px;
+    font-family: 'Baskervvile', serif;
+    font-weight: 900;
+}
+
+#bs-desc{
+    width: 70%;
+    display: flex;
+    gap: 7px;
+    color: #F9EFE6;
+    font-size:20px;
+    font-family: 'Baskervvile', serif;
+    font-weight: 500;
+}
+
+#bs-text-container {
+    top: 20px;
+    left: 50px;
+}
+
+#more-flavor {
+    right: 50px;
+    top: 35px;
+    font-family: 'Baskervvile', serif;
+    font-size: 24px;
+    font-weight: 700;
+    border-style: none;
+    text-decoration: underline;
+    color: white;
+}
+
+#flavor-wrapper {
+    top: 160px;
+    display: flex;
+    gap: 50px;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.flavor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: white;
+}
+
+.flavor-container img {
+    width: 70%;
+}
+
+.flavor-container h2 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.flavor-container p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    width: 75%;
+}
+
+/* Panel 4 */
+
+#rv-title {
+    top: 20px;
+    left: 50px;
+    display: flex;
+    gap: 7px;
+    color: #D1AFA6;
+    font-size: 56px;
+    font-family: 'Baskervvile', serif;
+    font-weight: 900;
+}
+
+#more-rv {
+    right: 50px;
+    bottom: 35px;
+    font-family: 'Baskervvile', serif;
+    font-size: 24px;
+    font-weight: 700;
+    border-style: none;
+    text-decoration: underline;
+    color: #D1AFA6;
+}
+
+#rv-wrapper {
+    top: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.rv-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+}
+
+.rv-container img {
+    width: 150px;
+}
+
+.rv-container h2 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #9A7650;
+}
+
+.rv-container p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: #bda59f;
+    width: 80%;
+}
+
+.rv-star-container {
+    list-style: none;
+    display: flex;
+    padding:none;
+    margin-bottom: 7px;
+}
+
+.rv-star-container img {
+    width: 30px;
+}
+
+/* Panel 4 & 5 Configuration */
+
+.two-panel-container {
+    display: flex;
+}
+
+.half-panel {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    height: 624px;
+    z-index: 0;
+}
+
+/* Panel 4 */
+
+#branches {
+    background-color: #F9B8A1;
+}
+
+#br-header {
+    top: 5%;
+    left: 7%;
+    width: 90%;
+}
+
+#br-title {
+    display: flex;
+    gap: 7px;
+    color: white;
+    font-size: 56px;
+    font-family: 'Baskervvile', serif;
+    font-weight: 900;
+}
+
+#br-underline {
+    width: 95%;
+    border: 2px solid white;
+    z-index: 1;
+}
+
+#br-wrapper {
+    top: 18%;
+    left: 7%;
+    z-index: 1;
+    display: flex;
+    gap: 50px;
+    color: white;
+}
+
+.br-container h2 {
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.br-container ul {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#br-star-1 {
+    top: 82%;
+    left: 45%;
+    z-index: 1;
+}
+
+#br-star-1 img {
+    width: 175px;
+}
+
+/* Panel 5 */
+
+#membership {
+    background-color: #D0AEA5;
+    color: white;
+}
+
+#mb-header {
+    top: 5%;
+    right: 7%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#mb-title {
+    display: flex;
+    gap: 7px;
+    color: white;
+    font-size: 56px;
+    font-family: 'Baskervvile', serif;
+    font-weight: 900;
+}
+
+#mb-underline {
+    width: 95%;
+    border: 2px solid white;
+    z-index: 1;
+}
+
+#mb-desc {
+    margin-top: 5px;
+    font-size: 16px;
+    width: 95%;
+    text-align: right;
+}
+
+#form-wrapper {
+    top: 25%;
+    right: 7%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 45px;
+    width: 200px;
+    max-width: 250px;
+}
+
+.form-container p {
+    font-size: 36px;
+    font-family: 'Baskervvile', serif;
+    font-weight: 900;
+}
+
+.form-container hr {
+    border: 1px solid white;
+    width: 100%;
+}
+
+#mb-star-1 {
+    top: 45%;
+    left: -7%;
+    z-index: 1;
+}
+
+#mb-star-1 img {
+    width: 165px;
+}
+
+footer {
+    width: 100%;
+    background-color: #dba99b;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer img {
+    width: 30px;
+}
+
+footer p {
+    font-family: 'Baskervvile', serif;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
