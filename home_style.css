@@ -135,6 +135,13 @@ header a {
     color: white;
 }
 
+header a:hover {
+    background-color: white;
+    border-radius: 25px;
+    color: #F9B8A1;;
+    padding: 15px;
+}
+
 /* Panel 2 */
 
 #as-circle-1 {
